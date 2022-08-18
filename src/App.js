@@ -1,9 +1,9 @@
-
+import Intro from "./components/Introduction/Intro";
 
 function App() {
   return (
     <div className="App">
-      helon
+      <Intro />
     </div>
   );
 }
