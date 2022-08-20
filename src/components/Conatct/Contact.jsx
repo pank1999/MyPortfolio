@@ -1,11 +1,12 @@
-import { useRef } from "react";
+import { useContext, useRef } from "react";
 import "./Contact.css";
 import emailjs from '@emailjs/browser';
 import {LocalPhone, Email,Home } from "@mui/icons-material";
-
-
-
+import {TheameContext} from "../../context";
 export default function Contact() {
+    const theame=useContext(TheameContext);
+  const darkMode=theame.state.darkMode;
+
     const formref=useRef();
     const handleSubmit=(e)=>{
         e.preventDefault();
@@ -39,10 +40,10 @@ export default function Contact() {
                     <b>Whats your story ?</b> Get in touch , always support freelancer if the right project comes along. Keep working for better future.
                 </div>
                 <form ref={formref} onSubmit={handleSubmit}>
-                    <input  name="user_name" placeholder="Name" type="text" />
-                    <input  name="user_subject" placeholder="Subject" type="text" />
-                    <input  name="user_email" placeholder="Email" type="email" />
-                    <textarea rows={5} placeholder="Message" name="message" />
+                    <input style={{backgroundColor:darkMode && "#333"}} name="user_name" placeholder="Name" type="text" />
+                    <input   style={{backgroundColor:darkMode && "#333"}} name="user_subject" placeholder="Subject" type="text" />
+                    <input  style={{backgroundColor:darkMode && "#333"}} name="user_email" placeholder="Email" type="email" />
+                    <textarea  style={{backgroundColor:darkMode && "#333"}} rows={5} placeholder="Message" name="message" />
                     <button type="submit" value="Send">Submit</button>
                 </form>
              </div>
