@@ -70,3 +70,38 @@ button{
     font-size: 20px;
     cursor: pointer;
 }
+
+
+@media screen and (max-width:480px) {
+    .c-wrapper{
+      flex-direction: column;
+      padding: 0px 50px;
+    }
+    .c-title{
+        font-size: 30px;
+    }
+    .c-info-item{
+        margin: 20px 10px;
+    }
+    .c-desc{
+        display: none;
+    }
+    .c-right{
+        padding-top: 10px;
+    }
+    form{
+        margin-top: 0px;
+
+    }
+    input{
+        height: 35px;
+        width: 100%;
+    }
+    textarea{
+        border: 1px  solid blueviolet;
+    }
+    button{
+        width: 100%;
+        border-radius: 5px;
+    }
+}

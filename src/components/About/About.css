@@ -39,8 +39,7 @@
 }
 .a-title{
     padding: 5px;
-    border-left: 5px solid blueviolet;
-    background-color: rgb(228, 204, 250);
+    border-bottom: 1px solid blueviolet;
     margin-right: 10px;
 }
 .a-sub{
@@ -66,4 +65,30 @@
 }
 .a-award-text p{
     margin-top: 10px;
+}
+
+@media screen and (max-width:480px) {
+    .a{
+        flex-direction: column;
+        align-items: center;
+    }
+    .a-left{
+        width: 100%;
+        margin-top: 50px;
+    }
+    .a-card{
+       height: 30vh;
+     }
+     .a-card.bg{
+        display: none;
+     }
+     .a-right{
+        padding: 20px;
+     }
+     .a-award{
+        margin-top: 33px;
+       border: 1px solid;
+       border-radius: 10px;
+     }
+
 }

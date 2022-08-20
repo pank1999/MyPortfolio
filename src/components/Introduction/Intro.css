@@ -92,3 +92,30 @@
     border-radius: 100%;
     object-fit: cover;
 }
+
+
+@media screen and (max-width:480px) {
+    .Intro{
+      flex-direction: column;
+    }
+    .img{
+        height: 67%;
+        width: 60%;
+    right: 44px;
+    bottom: 50px;
+    border-radius: 50%;
+    }
+    .Intro-left-wrapper{
+        padding: 10px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .left-desc{
+        display: none;
+    }
+    .left-designation{
+        margin-left: 77px;
+    }
+}
