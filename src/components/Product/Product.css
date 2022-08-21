@@ -10,7 +10,7 @@
 .p-browser{
     height: 20px;
     display: flex;
-    background-color:rgb(231, 231, 231);
+    background-color:rgb(177, 177, 177);
     align-items: center;
     position: sticky;
     z-index: 2;

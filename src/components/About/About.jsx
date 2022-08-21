@@ -1,5 +1,6 @@
 import { EmojiEvents } from "@mui/icons-material";
 import "./About.css";
+import img from "../../img/profile_pic.jpg";
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
          <div className="a-left">
              <div className="a-card bg"></div>
              <div className="a-card">
-                 <img className="a-card-img" src="https://www.vandelaydesign.com/wp-content/uploads/types-of-photography.jpg" alt="" />
+                 <img className="a-card-img" src={img} alt="" />
                 
              </div>
          </div>
