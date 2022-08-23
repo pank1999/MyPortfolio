@@ -71,6 +71,11 @@ button{
     cursor: pointer;
 }
 
+.Thankyou{
+    font-size: 18px;
+    margin-left: 50px;
+    color:green;
+}
 
 @media screen and (max-width:480px) {
     .c-wrapper{

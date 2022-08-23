@@ -1,4 +1,4 @@
-import { useContext, useRef } from "react";
+import { useContext, useRef, useState } from "react";
 import "./Contact.css";
 import emailjs from '@emailjs/browser';
 import {LocalPhone, Email,Home } from "@mui/icons-material";
@@ -6,6 +6,7 @@ import {TheameContext} from "../../context";
 export default function Contact() {
     const theame=useContext(TheameContext);
   const darkMode=theame.state.darkMode;
+  const [thankyou,setThankyou]=useState(false);
 
     const formref=useRef();
     const handleSubmit=(e)=>{
@@ -13,6 +14,7 @@ export default function Contact() {
         emailjs.sendForm('service_lgvq1mc', 'template_7mv5r8a', formref.current, 'L6sJHNG-bQ42RAyxm')
             .then((result) => {
              console.log(result.text);
+             setThankyou(true);
               }, (error) => {
                console.log(error.text);
              });
@@ -45,6 +47,7 @@ export default function Contact() {
                     <input  style={{backgroundColor:darkMode && "#333"}} name="user_email" placeholder="Email" type="email" />
                     <textarea  style={{backgroundColor:darkMode && "#333"}} rows={5} placeholder="Message" name="message" />
                     <button type="submit" value="Send">Submit</button>
+                    <span className="Thankyou"> { thankyou?"Thank you...":"hello"}</span>
                 </form>
              </div>
         </div>
