@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.7fbed348.css",
-    "main.js": "/myportfolio/static/js/main.2e3693cd.js",
+    "main.css": "/myportfolio/static/css/main.cf3ce786.css",
+    "main.js": "/myportfolio/static/js/main.bb51f620.js",
+    "static/media/vps.png": "/myportfolio/static/media/vps.93b3f47c27335e644942.png",
+    "static/media/myhop.png": "/myportfolio/static/media/myhop.0d5137651d4580575fef.png",
+    "static/media/college-space.png": "/myportfolio/static/media/college-space.2fa4fdd2f1650000c9a8.png",
     "static/media/profile_pic.jpg": "/myportfolio/static/media/profile_pic.d5fcd6a58d0517073f1b.jpg",
+    "static/media/admin-dashboard.png": "/myportfolio/static/media/admin-dashboard.4ce9780569733cfec786.png",
     "static/media/pankaj.jpeg": "/myportfolio/static/media/pankaj.5aae6f32c79fdcdf5661.jpeg",
+    "static/media/cryptobg-1.jpg": "/myportfolio/static/media/cryptobg-1.53766e495dd551207960.jpg",
     "static/media/sun.png": "/myportfolio/static/media/sun.f794832ad72b90c61eb7.png",
     "static/media/moon.png": "/myportfolio/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/myportfolio/index.html",
-    "main.7fbed348.css.map": "/myportfolio/static/css/main.7fbed348.css.map",
-    "main.2e3693cd.js.map": "/myportfolio/static/js/main.2e3693cd.js.map"
+    "main.cf3ce786.css.map": "/myportfolio/static/css/main.cf3ce786.css.map",
+    "main.bb51f620.js.map": "/myportfolio/static/js/main.bb51f620.js.map"
   },
   "entrypoints": [
-    "static/css/main.7fbed348.css",
-    "static/js/main.2e3693cd.js"
+    "static/css/main.cf3ce786.css",
+    "static/js/main.bb51f620.js"
   ]
 }
