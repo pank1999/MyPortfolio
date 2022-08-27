@@ -47,7 +47,7 @@ export default function Contact() {
                     <input  style={{backgroundColor:darkMode && "#333"}} name="user_email" placeholder="Email" type="email" />
                     <textarea  style={{backgroundColor:darkMode && "#333"}} rows={5} placeholder="Message" name="message" />
                     <button type="submit" value="Send">Submit</button>
-                    <span className="Thankyou"> { thankyou?"Thank you...":"hello"}</span>
+                    <span className="Thankyou"> { thankyou?"Thank you...":""}</span>
                 </form>
              </div>
         </div>

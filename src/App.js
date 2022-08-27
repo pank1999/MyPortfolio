@@ -4,6 +4,7 @@ import Contact from "./components/Conatct/Contact";
 import Footer from "./components/Footer/Footer";
 import Intro from "./components/Introduction/Intro";
 import ProductList from "./components/ProductList/ProductList";
+import Slider from "./components/Slider/Slider";
 import Toggle from "./components/Toggle/Toggle";
 import { TheameContext } from "./context";
 
@@ -18,6 +19,7 @@ function App() {
          <Toggle />
          <Intro />
          <About />
+         {/* <Slider /> */}
          <ProductList />
          <Contact />
          <Footer />
