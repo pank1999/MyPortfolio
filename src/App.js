@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import About from "./components/About/About";
 import Contact from "./components/Conatct/Contact";
+import Education from "./components/Education/Education";
+import Experiance from "./components/Experiance/Experiance";
 import Footer from "./components/Footer/Footer";
 import Intro from "./components/Introduction/Intro";
 import ProductList from "./components/ProductList/ProductList";
@@ -19,7 +21,9 @@ function App() {
          <Toggle />
          <Intro />
          <About />
-         {/* <Slider /> */}
+         <Education />
+         <Experiance />
+         <Slider />
          <ProductList />
          <Contact />
          <Footer />
