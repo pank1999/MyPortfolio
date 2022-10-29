@@ -5,6 +5,27 @@ export default function Experiance() {
     <div className="exp">
       <h1 className="exp-title">Work Experiance</h1>
       <div className="exp-container">
+      <div className="exp-item">
+          <div className="exp-left">
+            <img
+              src="https://media.glassdoor.com/sqll/3862824/wisflux-squarelogo-1662111884631.png"
+              alt="img"
+            />
+          </div>
+          <div className="exp-right">
+            <h2>Wisflux Private Limited</h2>
+            <h3>
+              Full Stack Developer Intern <span>[09/2022 - current]</span>{" "}
+            </h3>
+            <p>
+              I works in both front end back
+              end both and manage the hosting sever, technologies works on are
+              Angular React Typescript Express.Js Nest.Js Sequelize Postgres-sql and MongoDB .  Backend Logic
+              for Invites based platform, database designing, User profiles and
+              User Dashboard functionality.
+            </p>
+          </div>
+        </div>
         <div className="exp-item">
           <div className="exp-left">
             <img
@@ -46,6 +67,7 @@ export default function Experiance() {
             </p>
           </div>
         </div>
+        
       </div>
     </div>
   );
