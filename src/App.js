@@ -5,6 +5,7 @@ import Education from "./components/Education/Education";
 import Experiance from "./components/Experiance/Experiance";
 import Footer from "./components/Footer/Footer";
 import Intro from "./components/Introduction/Intro";
+import Placements from "./components/Placements/Placements";
 import ProductList from "./components/ProductList/ProductList";
 import Slider from "./components/Slider/Slider";
 import Toggle from "./components/Toggle/Toggle";
@@ -21,6 +22,7 @@ function App() {
          <Toggle />
          <Intro />
          <About />
+         <Placements/>
          <Education />
          <Experiance />
          <Slider />
