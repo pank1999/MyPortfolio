@@ -1,12 +1,11 @@
 {
   "files": {
     "main.css": "/myportfolio/static/css/main.9300e9c0.css",
-    "main.js": "/myportfolio/static/js/main.dd289d60.js",
+    "main.js": "/myportfolio/static/js/main.c72140f8.js",
     "static/media/vps.png": "/myportfolio/static/media/vps.93b3f47c27335e644942.png",
     "static/media/myhop.png": "/myportfolio/static/media/myhop.0d5137651d4580575fef.png",
     "static/media/college-space.png": "/myportfolio/static/media/college-space.2fa4fdd2f1650000c9a8.png",
     "static/media/profile_pic.jpg": "/myportfolio/static/media/profile_pic.d5fcd6a58d0517073f1b.jpg",
-    "static/media/PRO-console.jpg": "/myportfolio/static/media/PRO-console.0f37d830f9e8966ec77d.jpg",
     "static/media/sih.png": "/myportfolio/static/media/sih.e78428975baffbd042c8.png",
     "static/media/python.png": "/myportfolio/static/media/python.3220feff310e0eb1a21a.png",
     "static/media/admin-dashboard.png": "/myportfolio/static/media/admin-dashboard.4ce9780569733cfec786.png",
@@ -16,10 +15,10 @@
     "static/media/moon.png": "/myportfolio/static/media/moon.3bea3d398a25611d421b.png",
     "index.html": "/myportfolio/index.html",
     "main.9300e9c0.css.map": "/myportfolio/static/css/main.9300e9c0.css.map",
-    "main.dd289d60.js.map": "/myportfolio/static/js/main.dd289d60.js.map"
+    "main.c72140f8.js.map": "/myportfolio/static/js/main.c72140f8.js.map"
   },
   "entrypoints": [
     "static/css/main.9300e9c0.css",
-    "static/js/main.dd289d60.js"
+    "static/js/main.c72140f8.js"
   ]
 }
