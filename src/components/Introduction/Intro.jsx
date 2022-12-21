@@ -2,25 +2,28 @@ import "./Intro.css";
 import me from "../../img/pankaj.jpeg";
 export default function Intro() {
   return (
-    <div  className="Intro">
-       <div className="Intro-left">
-          <div className="Intro-left-wrapper">
-                <h2 className="left-title">Hello , my name is </h2>
-                <h1 className="left-name">Pankaj Pandey</h1>
-                <div className="left-designation">
-                    <div className="left-designation-wrapper">
-                          <div className="left-designation-item">Web Developer</div>
-                          <div className="left-designation-item">UI/UX Designer</div>
-                          <div className="left-designation-item">Data Analyst</div>
-                          <div className="left-designation-item">Full Stack Developer</div>
-                    </div>
-                </div>
-                <p className="left-desc">
-                     Diligent software engineer with experience in application development. Eager to build innovative and cutting edge business solutions for the impressive suite of clients within its global reach. In previous roles, slashed downtime by 25% and ensured 98% on-time project completion. 
-                </p>
-
+    <div className="Intro">
+      <div className="Intro-left">
+        <div className="Intro-left-wrapper">
+          <h2 className="left-title">Hello , my name is </h2>
+          <h1 className="left-name">Pankaj Pandey</h1>
+          <div className="left-designation">
+            <div className="left-designation-wrapper">
+              <div className="left-designation-item">Web Developer</div>
+              <div className="left-designation-item">UI/UX Designer</div>
+              <div className="left-designation-item">Data Analyst</div>
+              <div className="left-designation-item">Full Stack Developer</div>
+            </div>
           </div>
-          <svg
+          <p className="left-desc">
+            Diligent software engineer with experience in application
+            development. Eager to build innovative and cutting edge business
+            solutions for the impressive suite of clients within its global
+            reach. In previous roles, slashed downtime by 25% and ensured 98%
+            on-time project completion.
+          </p>
+        </div>
+        <svg
           width="75"
           height="75"
           viewBox="0 0 75 75"
@@ -76,15 +79,11 @@ export default function Intro() {
             </g>
           </g>
         </svg>
-
-       </div>
-       <div className="Intro-right">
-           <div className="right-bg">
-
-           </div>
-           <img src={me} className="img" alt="" />
-       </div>
-
+      </div>
+      <div className="Intro-right">
+        <div className="right-bg"></div>
+        <img src={me} className="img" alt="" />
+      </div>
     </div>
-  )
+  );
 }

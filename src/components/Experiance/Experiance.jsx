@@ -1,11 +1,17 @@
 import "./Experiance.css";
+import AOS from "aos";
 
 export default function Experiance() {
+  AOS.init();
   return (
     <div className="exp">
       <h1 className="exp-title">Work Experiance</h1>
       <div className="exp-container">
-      <div className="exp-item">
+        <div
+          className="exp-item"
+          data-aos="zoom-in-up"
+          data-aos-duration="1000"
+        >
           <div className="exp-left">
             <img
               src="https://media.glassdoor.com/sqll/3862824/wisflux-squarelogo-1662111884631.png"
@@ -18,15 +24,19 @@ export default function Experiance() {
               Full Stack Developer Intern <span>[09/2022 - current]</span>{" "}
             </h3>
             <p>
-              I works in both front end back
-              end both and manage the hosting sever, technologies works on are
-              Angular React Typescript Express.Js Nest.Js Sequelize Postgres-sql and MongoDB .  Backend Logic
-              for Invites based platform, database designing, User profiles and
-              User Dashboard functionality.
+              I works in both front end back end both and manage the hosting
+              sever, technologies works on are Angular React Typescript
+              Express.Js Nest.Js Sequelize Postgres-sql and MongoDB .  Backend
+              Logic for Invites based platform, database designing, User
+              profiles and User Dashboard functionality.
             </p>
           </div>
         </div>
-        <div className="exp-item">
+        <div
+          className="exp-item"
+          data-aos="zoom-in-up"
+          data-aos-duration="1500"
+        >
           <div className="exp-left">
             <img
               src="https://media-exp1.licdn.com/dms/image/C560BAQGI7tBL7mu0UA/company-logo_200_200/0/1661429182960?e=2147483647&v=beta&t=cQeKU6URJigyhHp0nuWax9Q-NdOuow3LZFq1NoNCrQA"
@@ -46,7 +56,11 @@ export default function Experiance() {
             </p>
           </div>
         </div>
-        <div className="exp-item">
+        <div
+          className="exp-item"
+          data-aos="zoom-in-up"
+          data-aos-duration="2000"
+        >
           <div className="exp-left">
             <img
               src="https://media-exp2.licdn.com/dms/image/C4D0BAQG_Bh8qz_qV0w/company-logo_200_200/0/1627766731477?e=2147483647&v=beta&t=VNQ2d-QqdKiEzRs_YRVioKv34Tt0rUW03OE45nvAnkw"
@@ -67,7 +81,6 @@ export default function Experiance() {
             </p>
           </div>
         </div>
-        
       </div>
     </div>
   );
